@@ -60,10 +60,10 @@
   column-gap: 20px;
 }
 
-#FoodItemNameContainer {
+/* #FoodItemNameContainer {
   height: 30em;
   overflow: auto;
-}
+} */
 
 #TheHeading {
   background-color: #282c34;
