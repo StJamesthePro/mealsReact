@@ -32,7 +32,45 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+#IngredientData {
+  height: 15em;
+  overflow: auto;
+  -moz-column-count: 4;
+  -moz-column-gap: 20px;
+  -webkit-column-count: 4;
+  -webkit-column-gap: 20px;
+  column-count: 4;
+  column-gap: 20px;
+}
+
+#FoodItemName {
+  /* float: left; */
+  display: flex;
+  -moz-column-count: 4;
+  -moz-column-gap: 20px;
+  -webkit-column-count: 4;
+  -webkit-column-gap: 20px;
+  column-count: 4;
+  column-gap: 20px;
+}
+
+#FoodItemNameContainer {
+  height: 15em;
+  overflow: auto;
+}
+
+#TheHeading {
+  background-color: #282c34;
+  color: white;
+}
+
+#FoodSelect {
+  background-color: #282c34;
+  color: white;
 }
